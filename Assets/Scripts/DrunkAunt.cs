@@ -14,12 +14,17 @@ public class DrunkAunt : MonoBehaviour
 
     Animator anim;
     SpriteRenderer sr;
+    Player player;
+    Fungus.Flowchart fChart;
+
 
     void Start()
     {
         anchorPos = transform.position;
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        fChart = GetComponent<Fungus.Flowchart>();
     }
 
     void Update()
@@ -44,8 +49,10 @@ public class DrunkAunt : MonoBehaviour
         {
             if (!pacified)
             {
-                GameMaster.instance.AddTime(20);
                 pacified = true;
+                player.canMove = false;
+                player.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+                fChart.ExecuteBlock("Ramble");
             }
         }
     }

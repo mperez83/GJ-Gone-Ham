@@ -10,6 +10,7 @@ public class Preston : MonoBehaviour
     public bool pacified;
     SpriteRenderer sr;
     Fungus.Flowchart fChart;
+    Player player;
 
     void Start()
     {
@@ -17,6 +18,7 @@ public class Preston : MonoBehaviour
         StartCoroutine(PerformInstructions());
         sr = GetComponent<SpriteRenderer>();
         fChart = GetComponent<Fungus.Flowchart>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
     void Update()
@@ -45,8 +47,9 @@ public class Preston : MonoBehaviour
         {
             if (!pacified)
             {
-                GameMaster.instance.AddTime(20);
                 pacified = true;
+                player.canMove = false;
+                player.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
                 fChart.ExecuteBlock("Brag");
             }
         }

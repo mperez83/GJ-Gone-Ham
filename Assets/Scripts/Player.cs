@@ -9,6 +9,9 @@ public class Player : MonoBehaviour
     public float speed;
     int faceDir = 2;    //0 = Up, 1 = Right, 2 = Down, 3 = Left
 
+    [HideInInspector]
+    public bool canMove = true;
+
     Rigidbody2D rb;
     SpriteRenderer sr;
 
@@ -36,10 +39,13 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        Vector2 moveAmount;
-        moveAmount.x = Input.GetAxisRaw("Horizontal") * speed;
-        moveAmount.y = Input.GetAxisRaw("Vertical") * speed;
-        rb.velocity = moveAmount;
+        if (canMove)
+        {
+            Vector2 moveAmount;
+            moveAmount.x = Input.GetAxisRaw("Horizontal") * speed;
+            moveAmount.y = Input.GetAxisRaw("Vertical") * speed;
+            rb.velocity = moveAmount;
+        }
 
         sr.sortingOrder = (int)transform.position.y * -1;
 
@@ -71,14 +77,10 @@ public class Player : MonoBehaviour
         else {
             sr.sprite = staticSprite;
         }
-
-		
-
-
-
-
     }
 
-
-
+    public void GrantMovementBack()
+    {
+        canMove = true;
+    }
 }
