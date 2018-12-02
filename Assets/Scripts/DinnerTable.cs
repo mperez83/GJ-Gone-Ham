@@ -18,7 +18,13 @@ public class DinnerTable : MonoBehaviour
                 fadeToWhite.color = new Color(fadeToWhite.color.r, fadeToWhite.color.g, fadeToWhite.color.b, value);
             }).setOnComplete(() =>
             {
-                LeanTween.delayedCall(gameObject, 1, () => { SceneManager.LoadScene("Good Ending"); }).setIgnoreTimeScale(true);
+                LeanTween.delayedCall(gameObject, 1, () =>
+                {
+                    if (GameMaster.instance.GetTimeSpent() < 100)
+                        SceneManager.LoadScene("Good Ending");
+                    else
+                        SceneManager.LoadScene("Bad Ending");
+                }).setIgnoreTimeScale(true);
             });
         }
     }

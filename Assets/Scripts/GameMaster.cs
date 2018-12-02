@@ -31,4 +31,9 @@ public class GameMaster : MonoBehaviour
     {
         timeSpent += timeToAdd;
     }
+
+    public float GetTimeSpent()
+    {
+        return timeSpent;
+    }
 }

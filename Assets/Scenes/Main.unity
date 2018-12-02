@@ -3349,6 +3349,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectedFlowchart: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
+    type: 2}
   selectedFlowchart: {fileID: 70567639}
 --- !u!4 &635345274
 Transform:
