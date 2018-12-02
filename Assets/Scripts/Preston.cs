@@ -6,14 +6,17 @@ public class Preston : MonoBehaviour
 {
     Vector2 startPos;
     public Vector2[] instructions;
-    bool pacified;
+    [HideInInspector]
+    public bool pacified;
     SpriteRenderer sr;
+    Fungus.Flowchart fChart;
 
     void Start()
     {
         startPos = transform.position;
         StartCoroutine(PerformInstructions());
         sr = GetComponent<SpriteRenderer>();
+        fChart = GetComponent<Fungus.Flowchart>();
     }
 
     void Update()
@@ -44,6 +47,7 @@ public class Preston : MonoBehaviour
             {
                 GameMaster.instance.AddTime(20);
                 pacified = true;
+                fChart.ExecuteBlock("Brag");
             }
         }
     }
