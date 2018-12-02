@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Endings/Mother Ending.unity
     guid: 6bc956dc4045d54408f6ff23928cd232
+  - enabled: 1
+    path: Assets/Scenes/Endings/Good Ending.unity
+    guid: 49e83f1bac73c664e83a0cb276552d4d
   m_configObjects: {}
