@@ -13,11 +13,13 @@ public class DrunkAunt : MonoBehaviour
     bool pacified;
 
     Animator anim;
+    SpriteRenderer sr;
 
     void Start()
     {
         anchorPos = transform.position;
         anim = GetComponent<Animator>();
+        sr.GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -32,6 +34,8 @@ public class DrunkAunt : MonoBehaviour
         transform.position = new Vector3(anchorPos.x + finalSinX, anchorPos.y + finalSinY, transform.localPosition.z);
 
         anim.SetFloat("yVelocity", (transform.position.y - prevPos.y));
+
+        sr.sortingOrder = (int)transform.position.y * -1;
     }
 
     void OnTriggerEnter2D(Collider2D other)

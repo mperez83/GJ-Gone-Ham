@@ -6,11 +6,19 @@ public class Preston : MonoBehaviour
 {
     Vector2 startPos;
     public Vector2[] instructions;
+    bool pacified;
+    SpriteRenderer sr;
 
     void Start()
     {
         startPos = transform.position;
         StartCoroutine(PerformInstructions());
+        sr = GetComponent<SpriteRenderer>();
+    }
+
+    void Update()
+    {
+        sr.sortingOrder = (int)transform.position.y * -1;
     }
 
     IEnumerator PerformInstructions()
@@ -25,6 +33,18 @@ public class Preston : MonoBehaviour
 
             yield return new WaitForSeconds(3);
             LeanTween.move(gameObject, startPos, 1).setEase(LeanTweenType.easeOutCubic);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            if (!pacified)
+            {
+                GameMaster.instance.AddTime(20);
+                pacified = true;
+            }
         }
     }
 }
