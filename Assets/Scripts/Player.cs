@@ -11,7 +11,6 @@ public class Player : MonoBehaviour
 
     Rigidbody2D rb;
     SpriteRenderer sr;
-    Animator anim;
 
     public Sprite[] left;
     public Sprite[] right;
@@ -29,7 +28,6 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
 
         staticSprite = sr.sprite;
 		runFrameTime = 1 / (float)fps;
@@ -42,25 +40,6 @@ public class Player : MonoBehaviour
         moveAmount.x = Input.GetAxisRaw("Horizontal") * speed;
         moveAmount.y = Input.GetAxisRaw("Vertical") * speed;
         rb.velocity = moveAmount;
-
-        //Set direction animator variable
-        /*if (rb.velocity.y > 0)
-        {
-            faceDir = 0;
-        }
-        else
-        {
-            faceDir = 2;
-            if (rb.velocity.x > 0) faceDir = 1;
-            else if (rb.velocity.x < 0) faceDir = 3;
-        }
-        anim.SetInteger("Direction", faceDir);
-
-        //Set moving animator variable
-        if (rb.velocity.x != 0 && rb.velocity.y != 0)
-            anim.SetBool("Moving", true);
-        else
-            anim.SetBool("Moving", false);*/
 
         sr.sortingOrder = (int)transform.position.y * -1;
 
