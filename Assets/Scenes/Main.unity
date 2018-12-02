@@ -339,23 +339,33 @@ GameObject:
   m_PrefabInternal: {fileID: 1300285502}
 --- !u!114 &70567637
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 70567636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  targetObject: {fileID: 2006865441}
-  methodName: GrantMovementBack
-  delay: 0
+  storyText: If only HAROLD will stop fuCKIN' THE NEIGHBOR'S GIRLS!!!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &70567638
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 70567636}
@@ -366,7 +376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: If only HAROLD will stop fucking the nEIGHBOR'S GIRLS!
+  storyText: It's the bOMB dot COM!!!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -379,15 +389,9 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &70567639 stripped
+--- !u!114 &70567640
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
-    type: 2}
-  m_PrefabInternal: {fileID: 1300285502}
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
---- !u!114 &70567646
-MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 70567636}
@@ -397,32 +401,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 3
-  indentLevel: 0
-  storyText: It's the bOMB dot COM!
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &70567647
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 70567636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
   indentLevel: 0
   storyText: Did you try the fuckin' ham??
   description: 
@@ -437,61 +415,12 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &70567648
+--- !u!114 &70567641 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 70567636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  storyText: Heheheuheuhueheuhuehehuahuhuhehh...
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &70567649
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 70567636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 304
-    y: 111
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 0
-  blockName: Ramble
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 70567648}
-  - {fileID: 70567647}
-  - {fileID: 70567646}
-  - {fileID: 70567638}
-  - {fileID: 70567637}
+  m_CorrespondingSourceObject: {fileID: 114422582093625370, guid: 52392e4a7dd06934491aaaf88417885e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1300285502}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
 --- !u!4 &78732341 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4201540998376074, guid: b1cb1dc72cbede54486c62118d2d9db7,
@@ -1167,12 +1096,17 @@ Prefab:
     - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
         type: 2}
       propertyPath: commandList.Array.size
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
         type: 2}
       propertyPath: instructions.Array.size
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462435073899856, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: selectedBlocks.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114462435073899856, guid: ab61196709cf6844e80502658b14b064,
         type: 2}
@@ -1290,7 +1224,7 @@ Prefab:
         type: 2}
       propertyPath: commandList.Array.data[4]
       value: 
-      objectReference: {fileID: 436456252}
+      objectReference: {fileID: 436456251}
     - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
         type: 2}
       propertyPath: commandList.Array.data[5]
@@ -1305,13 +1239,24 @@ Prefab:
         type: 2}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 436456252}
+      objectReference: {fileID: 436456251}
     - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
         type: 2}
       propertyPath: nodeRect.y
-      value: 59
+      value: 63
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: nodeRect.x
+      value: 219
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462435073899856, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: selectedBlocks.Array.data[0]
+      value: 
+      objectReference: {fileID: 436456253}
+    m_RemovedComponents:
+    - {fileID: 114267660143343192, guid: ab61196709cf6844e80502658b14b064, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: ab61196709cf6844e80502658b14b064, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &242570008
@@ -2069,23 +2014,33 @@ GameObject:
   m_PrefabInternal: {fileID: 926235384}
 --- !u!114 &396985446
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 396985445}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  targetObject: {fileID: 2006865441}
-  methodName: GrantMovementBack
-  delay: 0
+  storyText: If only HAROLD will stop fUCKIN' the NEIGHBOR'S GIRLS!!!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &396985447
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 396985445}
@@ -2096,7 +2051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: If only HAROLD will stop fucking the nEIGHBOR'S GIRLS!
+  storyText: It's the fuckin bOMB dot COM!!!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2109,9 +2064,9 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &396985455
+--- !u!114 &396985448
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 396985445}
@@ -2122,7 +2077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: It's the bOMB dot COM!
+  storyText: Did you try the fuckin' ham???
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2135,87 +2090,12 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &396985456
+--- !u!114 &396985449 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 396985445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  storyText: Did you try the fuckin' ham??
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &396985457
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 396985445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  storyText: Heheheuheuhueheuhuehehuahuhuhehh...
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &396985458
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 396985445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 329
-    y: 97
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 0
-  blockName: Ramble
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 396985457}
-  - {fileID: 396985456}
-  - {fileID: 396985455}
-  - {fileID: 396985447}
-  - {fileID: 396985446}
+  m_CorrespondingSourceObject: {fileID: 114422582093625370, guid: 52392e4a7dd06934491aaaf88417885e,
+    type: 2}
+  m_PrefabInternal: {fileID: 926235384}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
 --- !u!4 &399502520 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4201540998376074, guid: b1cb1dc72cbede54486c62118d2d9db7,
@@ -2446,12 +2326,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 224399546}
   m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
---- !u!114 &436456252 stripped
+--- !u!114 &436456253 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114267660143343192, guid: ab61196709cf6844e80502658b14b064,
+  m_CorrespondingSourceObject: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
     type: 2}
   m_PrefabInternal: {fileID: 224399546}
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!114 &436456262
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3349,9 +3229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
-    type: 2}
-  selectedFlowchart: {fileID: 70567639}
+  selectedFlowchart: {fileID: 2066547823}
 --- !u!4 &635345274
 Transform:
   m_ObjectHideFlags: 1
@@ -4885,10 +4763,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
-      propertyPath: selectedBlocks.Array.size
-      value: 1
+      propertyPath: commandList.Array.size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
@@ -4931,35 +4809,47 @@ Prefab:
       propertyPath: m_Name
       value: Drunk Aunt (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 114359693761576102, guid: 52392e4a7dd06934491aaaf88417885e,
-        type: 2}
-      propertyPath: stumbleSpeed
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 114359693761576102, guid: 52392e4a7dd06934491aaaf88417885e,
-        type: 2}
-      propertyPath: verticalStumbleDistance
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114359693761576102, guid: 52392e4a7dd06934491aaaf88417885e,
-        type: 2}
-      propertyPath: horizontalStumbleDistance
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
       propertyPath: selectedCommands.Array.data[0]
       value: 
+      objectReference: {fileID: 396985449}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: nodeRect.y
+      value: 91
       objectReference: {fileID: 0}
     - target: {fileID: 114422582093625370, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 2006865441}
-    m_RemovedComponents:
-    - {fileID: 114043855083672272, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
-    - {fileID: 114422582093625370, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
-    - {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
+    - target: {fileID: 114043855083672272, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: storyText
+      value: Heheheuheuhueheuhuehehuahuhuhehh...
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 396985447}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 396985446}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 396985449}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 396985448}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &953932800
@@ -5275,10 +5165,15 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: commandList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 114462435073899856, guid: ab61196709cf6844e80502658b14b064,
         type: 2}
-      propertyPath: selectedBlocks.Array.size
-      value: 1
+      propertyPath: selectedCommands.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4772205100728542, guid: ab61196709cf6844e80502658b14b064, type: 2}
       propertyPath: m_LocalPosition.x
@@ -5316,46 +5211,42 @@ Prefab:
       propertyPath: m_Name
       value: Preston (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[0].x
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[0].y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[1].x
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[1].y
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[2].x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[2].y
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 114343845750074142, guid: ab61196709cf6844e80502658b14b064,
         type: 2}
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 2006865441}
-    m_RemovedComponents:
-    - {fileID: 114540471036274290, guid: ab61196709cf6844e80502658b14b064, type: 2}
-    - {fileID: 114267660143343192, guid: ab61196709cf6844e80502658b14b064, type: 2}
-    - {fileID: 114343845750074142, guid: ab61196709cf6844e80502658b14b064, type: 2}
-    - {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064, type: 2}
+    - target: {fileID: 114462435073899856, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: selectedCommands.Array.data[0]
+      value: 
+      objectReference: {fileID: 1081567300}
+    - target: {fileID: 114540471036274290, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: storyText
+      value: Hey did you hear?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114267660143343192, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: storyText
+      value: I got into HARVARD!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1081567300}
+    - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1081567302}
+    - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1081567301}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab61196709cf6844e80502658b14b064, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &1008632329 stripped
@@ -5733,52 +5624,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1081567299}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 6
-  indentLevel: 0
-  targetObject: {fileID: 2006865441}
-  methodName: GrantMovementBack
-  delay: 0
---- !u!114 &1081567301
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1081567299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 5
-  indentLevel: 0
-  storyText: HhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1081567302
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1081567299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 4
   indentLevel: 0
   storyText: HARVARD, BITCH!!!
   description: 
@@ -5793,7 +5642,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1081567303
+--- !u!114 &1081567301
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5804,9 +5653,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 3
+  itemId: 4
   indentLevel: 0
-  storyText: 'That''s right... '
+  storyText: That's right...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5819,88 +5668,12 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1081567311
+--- !u!114 &1081567302 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1081567299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  storyText: I got into HARVARD!
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1081567312
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1081567299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  storyText: Hey, did you hear?
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1081567313
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1081567299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 233
-    y: 64
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 0
-  blockName: Brag
-  description: lordy
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1081567312}
-  - {fileID: 1081567311}
-  - {fileID: 1081567303}
-  - {fileID: 1081567302}
-  - {fileID: 1081567301}
-  - {fileID: 1081567300}
+  m_CorrespondingSourceObject: {fileID: 114343845750074142, guid: ab61196709cf6844e80502658b14b064,
+    type: 2}
+  m_PrefabInternal: {fileID: 1003614942}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
 --- !u!1001 &1086023936
 Prefab:
   m_ObjectHideFlags: 0
@@ -6289,10 +6062,20 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: commandList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 114462435073899856, guid: ab61196709cf6844e80502658b14b064,
         type: 2}
       propertyPath: selectedBlocks.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462435073899856, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: selectedCommands.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4772205100728542, guid: ab61196709cf6844e80502658b14b064, type: 2}
       propertyPath: m_LocalPosition.x
@@ -6326,85 +6109,56 @@ Prefab:
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 61881537026966702, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61881537026966702, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 1.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 61881537026966702, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 0.7202482
-      objectReference: {fileID: 0}
-    - target: {fileID: 61881537026966702, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: m_Offset.y
-      value: -0.92987585
-      objectReference: {fileID: 0}
     - target: {fileID: 1396816823206138, guid: ab61196709cf6844e80502658b14b064, type: 2}
       propertyPath: m_Name
       value: Preston (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
+    - target: {fileID: 114462435073899856, guid: ab61196709cf6844e80502658b14b064,
         type: 2}
-      propertyPath: instructions.Array.data[0].x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[0].y
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[1].x
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[1].y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[2].x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[2].y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[3].x
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[3].y
-      value: -4
-      objectReference: {fileID: 0}
+      propertyPath: selectedCommands.Array.data[0]
+      value: 
+      objectReference: {fileID: 1139965929}
     - target: {fileID: 114343845750074142, guid: ab61196709cf6844e80502658b14b064,
         type: 2}
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 2006865441}
+    - target: {fileID: 114540471036274290, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: storyText
+      value: Hey, did you hear?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114267660143343192, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: storyText
+      value: I got into HARVARD!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462435073899856, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: selectedBlocks.Array.data[0]
+      value: 
+      objectReference: {fileID: 1139965934}
     - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
         type: 2}
-      propertyPath: nodeRect.x
-      value: 217
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1139965929}
+    - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1139965931}
+    - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1139965930}
+    - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: nodeRect.y
+      value: 56
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114540471036274290, guid: ab61196709cf6844e80502658b14b064, type: 2}
-    - {fileID: 114267660143343192, guid: ab61196709cf6844e80502658b14b064, type: 2}
-    - {fileID: 114343845750074142, guid: ab61196709cf6844e80502658b14b064, type: 2}
-    - {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064, type: 2}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab61196709cf6844e80502658b14b064, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1139965928 stripped
@@ -6412,41 +6166,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1396816823206138, guid: ab61196709cf6844e80502658b14b064,
     type: 2}
   m_PrefabInternal: {fileID: 1139965927}
---- !u!95 &1139965929
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1139965928}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ecfe48aeabfe4b44eaaf799145b77496, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1139965930
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1139965928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 6
-  indentLevel: 0
-  targetObject: {fileID: 2006865441}
-  methodName: GrantMovementBack
-  delay: 0
---- !u!114 &1139965931
+--- !u!114 &1139965929
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6458,32 +6178,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 5
-  indentLevel: 0
-  storyText: HhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1139965932
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1139965928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 4
   indentLevel: 0
   storyText: HARVARD, BITCH!!!
   description: 
@@ -6498,7 +6192,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1139965933
+--- !u!114 &1139965930
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6509,9 +6203,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 3
+  itemId: 4
   indentLevel: 0
-  storyText: 'That''s right... '
+  storyText: That's right...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6524,88 +6218,18 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1139965940
+--- !u!114 &1139965931 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1139965928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  storyText: I got into HARVARD!
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1139965941
+  m_CorrespondingSourceObject: {fileID: 114343845750074142, guid: ab61196709cf6844e80502658b14b064,
+    type: 2}
+  m_PrefabInternal: {fileID: 1139965927}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+--- !u!114 &1139965934 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1139965928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  storyText: Hey, did you hear?
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1139965942
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1139965928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
+    type: 2}
+  m_PrefabInternal: {fileID: 1139965927}
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 239
-    y: 70
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 0
-  blockName: Brag
-  description: lordy
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1139965941}
-  - {fileID: 1139965940}
-  - {fileID: 1139965933}
-  - {fileID: 1139965932}
-  - {fileID: 1139965931}
-  - {fileID: 1139965930}
 --- !u!4 &1148786996 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4201540998376074, guid: b1cb1dc72cbede54486c62118d2d9db7,
@@ -6971,10 +6595,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
-      propertyPath: selectedBlocks.Array.size
-      value: 1
+      propertyPath: commandList.Array.size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
@@ -7017,35 +6641,52 @@ Prefab:
       propertyPath: m_Name
       value: Drunk Aunt (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 114359693761576102, guid: 52392e4a7dd06934491aaaf88417885e,
-        type: 2}
-      propertyPath: stumbleSpeed
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 114359693761576102, guid: 52392e4a7dd06934491aaaf88417885e,
-        type: 2}
-      propertyPath: verticalStumbleDistance
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114359693761576102, guid: 52392e4a7dd06934491aaaf88417885e,
-        type: 2}
-      propertyPath: horizontalStumbleDistance
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2147126298}
     - target: {fileID: 114422582093625370, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 2006865441}
-    m_RemovedComponents:
-    - {fileID: 114043855083672272, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
-    - {fileID: 114422582093625370, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
-    - {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: nodeRect.x
+      value: 261
+      objectReference: {fileID: 0}
+    - target: {fileID: 114043855083672272, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: storyText
+      value: Heheheuheuhueheuhuehehuahuhuhehh...
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 2147126299}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: nodeRect.y
+      value: 91
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 2147126298}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 2147126297}
+    - target: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: blockViewHeight
+      value: 201
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1221138457 stripped
@@ -7061,52 +6702,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1221138457}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 6
-  indentLevel: 0
-  targetObject: {fileID: 2006865441}
-  methodName: GrantMovementBack
-  delay: 0
---- !u!114 &1221138459
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1221138457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 5
-  indentLevel: 0
-  storyText: HhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1221138460
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1221138457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 4
   indentLevel: 0
   storyText: HARVARD, BITCH!!!
   description: 
@@ -7121,7 +6720,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1221138461
+--- !u!114 &1221138459
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7132,9 +6731,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 3
+  itemId: 4
   indentLevel: 0
-  storyText: 'That''s right... '
+  storyText: That's right...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7147,88 +6746,12 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1221138469
+--- !u!114 &1221138460 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1221138457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  storyText: I got into HARVARD!
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1221138470
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1221138457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  storyText: Hey, did you hear?
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1221138471
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1221138457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 264
-    y: 78
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 0
-  blockName: Brag
-  description: lordy
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1221138470}
-  - {fileID: 1221138469}
-  - {fileID: 1221138461}
-  - {fileID: 1221138460}
-  - {fileID: 1221138459}
-  - {fileID: 1221138458}
+  m_CorrespondingSourceObject: {fileID: 114343845750074142, guid: ab61196709cf6844e80502658b14b064,
+    type: 2}
+  m_PrefabInternal: {fileID: 1342523065}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
 --- !u!4 &1230842775 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4512739227812822, guid: 74c58e6001bda3d4a9333e3112501101,
@@ -7538,10 +7061,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
-      propertyPath: selectedBlocks.Array.size
-      value: 1
+      propertyPath: commandList.Array.size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
@@ -7584,30 +7107,37 @@ Prefab:
       propertyPath: m_Name
       value: Drunk Aunt (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 114359693761576102, guid: 52392e4a7dd06934491aaaf88417885e,
-        type: 2}
-      propertyPath: horizontalStumbleDistance
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 70567641}
     - target: {fileID: 114422582093625370, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 2006865441}
+    - target: {fileID: 114043855083672272, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: storyText
+      value: Heheheuheuhueheuhuehehuahuhuhehh...
+      objectReference: {fileID: 0}
     - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
-      propertyPath: nodeRect.y
-      value: 95
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114043855083672272, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
-    - {fileID: 114422582093625370, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
-    - {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 70567640}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 70567638}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 70567637}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &1303420558 stripped
@@ -7749,10 +7279,15 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: commandList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 114462435073899856, guid: ab61196709cf6844e80502658b14b064,
         type: 2}
-      propertyPath: selectedBlocks.Array.size
-      value: 1
+      propertyPath: selectedCommands.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4772205100728542, guid: ab61196709cf6844e80502658b14b064, type: 2}
       propertyPath: m_LocalPosition.x
@@ -7790,46 +7325,37 @@ Prefab:
       propertyPath: m_Name
       value: Preston (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[0].x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[0].y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[1].x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[1].y
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[2].x
-      value: -4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114128282937164934, guid: ab61196709cf6844e80502658b14b064,
-        type: 2}
-      propertyPath: instructions.Array.data[2].y
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 114343845750074142, guid: ab61196709cf6844e80502658b14b064,
         type: 2}
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 2006865441}
-    m_RemovedComponents:
-    - {fileID: 114540471036274290, guid: ab61196709cf6844e80502658b14b064, type: 2}
-    - {fileID: 114267660143343192, guid: ab61196709cf6844e80502658b14b064, type: 2}
-    - {fileID: 114343845750074142, guid: ab61196709cf6844e80502658b14b064, type: 2}
-    - {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064, type: 2}
+    - target: {fileID: 114462435073899856, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: selectedCommands.Array.data[0]
+      value: 
+      objectReference: {fileID: 1221138460}
+    - target: {fileID: 114267660143343192, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: storyText
+      value: I got into HARVARD!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1221138458}
+    - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1221138460}
+    - target: {fileID: 114371049122489362, guid: ab61196709cf6844e80502658b14b064,
+        type: 2}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1221138459}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab61196709cf6844e80502658b14b064, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &1343252647 stripped
@@ -8128,7 +7654,7 @@ Prefab:
         type: 2}
       propertyPath: selectedBlocks.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2066547832}
     m_RemovedComponents:
     - {fileID: 114540471036274290, guid: ab61196709cf6844e80502658b14b064, type: 2}
     - {fileID: 114267660143343192, guid: ab61196709cf6844e80502658b14b064, type: 2}
@@ -8784,7 +8310,7 @@ Prefab:
         type: 2}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 892512067}
+      objectReference: {fileID: 2146654769}
     - target: {fileID: 114422582093625370, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
       propertyPath: targetObject
@@ -8823,7 +8349,7 @@ Prefab:
     - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
       propertyPath: nodeRect.y
-      value: 92
+      value: 93
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
@@ -9637,10 +9163,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
-      propertyPath: selectedBlocks.Array.size
-      value: 1
+      propertyPath: commandList.Array.size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
@@ -9683,45 +9209,42 @@ Prefab:
       propertyPath: m_Name
       value: Drunk Aunt (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 114359693761576102, guid: 52392e4a7dd06934491aaaf88417885e,
-        type: 2}
-      propertyPath: verticalStumbleDistance
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114359693761576102, guid: 52392e4a7dd06934491aaaf88417885e,
-        type: 2}
-      propertyPath: horizontalStumbleDistance
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114359693761576102, guid: 52392e4a7dd06934491aaaf88417885e,
-        type: 2}
-      propertyPath: stumbleSpeed
-      value: 150
-      objectReference: {fileID: 0}
     - target: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1919846049}
     - target: {fileID: 114422582093625370, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 2006865441}
-    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+    - target: {fileID: 114043855083672272, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
-      propertyPath: nodeRect.x
-      value: 261
+      propertyPath: storyText
+      value: Heheheuheuhueheuhuehehuahuhuhehh...
       objectReference: {fileID: 0}
     - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
         type: 2}
-      propertyPath: nodeRect.y
-      value: 94
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114043855083672272, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
-    - {fileID: 114422582093625370, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
-    - {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1919846047}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1919846046}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1919846049}
+    - target: {fileID: 114526685048361112, guid: 52392e4a7dd06934491aaaf88417885e,
+        type: 2}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 1919846048}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52392e4a7dd06934491aaaf88417885e, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &1747007527 stripped
@@ -10766,23 +10289,33 @@ GameObject:
   m_PrefabInternal: {fileID: 1725276316}
 --- !u!114 &1919846046
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1919846045}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  targetObject: {fileID: 2006865441}
-  methodName: GrantMovementBack
-  delay: 0
+  storyText: If only HAROLD will stop fuCKIN THE NEIGHBOR'S GIRLS!!!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1919846047
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1919846045}
@@ -10793,7 +10326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: If only HAROLD will stop fucking the nEIGHBOR'S GIRLS!
+  storyText: It's the fuckin bOMB dot COM!!!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10806,9 +10339,9 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1919846055
+--- !u!114 &1919846048
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1919846045}
@@ -10819,7 +10352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: It's the bOMB dot COM!
+  storyText: Did you try the fuckin' ham???
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10832,87 +10365,12 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1919846056
+--- !u!114 &1919846049 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1919846045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  storyText: Did you try the fuckin' ham??
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1919846057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1919846045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  storyText: Heheheuheuhueheuhuehehuahuhuhehh...
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1919846058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1919846045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 303
-    y: 94
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 0
-  blockName: Ramble
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1919846057}
-  - {fileID: 1919846056}
-  - {fileID: 1919846055}
-  - {fileID: 1919846047}
-  - {fileID: 1919846046}
+  m_CorrespondingSourceObject: {fileID: 114422582093625370, guid: 52392e4a7dd06934491aaaf88417885e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1725276316}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
 --- !u!1001 &1938006122
 Prefab:
   m_ObjectHideFlags: 0
@@ -12246,6 +11704,12 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &2066547823 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114462435073899856, guid: ab61196709cf6844e80502658b14b064,
+    type: 2}
+  m_PrefabInternal: {fileID: 1386675988}
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
 --- !u!114 &2066547829
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12738,6 +12202,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1725920360528900, guid: 52392e4a7dd06934491aaaf88417885e,
     type: 2}
   m_PrefabInternal: {fileID: 1571965177}
+--- !u!114 &2146654769 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114043855083672272, guid: 52392e4a7dd06934491aaaf88417885e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1571965177}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
 --- !u!114 &2146654777
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12823,20 +12293,30 @@ GameObject:
   m_PrefabInternal: {fileID: 1212995794}
 --- !u!114 &2147126297
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2147126296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  targetObject: {fileID: 2006865441}
-  methodName: GrantMovementBack
-  delay: 0
+  storyText: If only HAROLD wil stop fuCKIN' THE NEIGHBOR'S GIRLS!!!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &2147126298
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12850,7 +12330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: If only HAROLD will stop fucking the nEIGHBOR'S GIRLS!
+  storyText: It's the bOMB dot COM!!!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12863,7 +12343,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &2147126306
+--- !u!114 &2147126299
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12875,32 +12355,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 3
-  indentLevel: 0
-  storyText: It's the bOMB dot COM!
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &2147126307
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2147126296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
   indentLevel: 0
   storyText: Did you try the fuckin' ham??
   description: 
@@ -12915,58 +12369,3 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &2147126308
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2147126296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  storyText: Heheheuheuhueheuhuehehuahuhuhehh...
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &2147126309
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2147126296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 272
-    y: 106
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 0
-  blockName: Ramble
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 2147126308}
-  - {fileID: 2147126307}
-  - {fileID: 2147126306}
-  - {fileID: 2147126298}
-  - {fileID: 2147126297}
