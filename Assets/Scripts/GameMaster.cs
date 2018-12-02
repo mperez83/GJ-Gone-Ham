@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class GameMaster : MonoBehaviour
 {
+    public static GameMaster instance;
+
     float timeSpent;
     int displayTime;
 
@@ -14,7 +16,7 @@ public class GameMaster : MonoBehaviour
 
     void Start()
     {
-
+        instance = this;
     }
 
     void Update()
@@ -23,5 +25,10 @@ public class GameMaster : MonoBehaviour
         displayTime = (int)Mathf.Floor(timeSpent);
         timerText.text = displayTime.ToString();
         timerText.fontSize = 12 + (int)Mathf.Floor(displayTime * 0.1f);
+    }
+
+    public void AddTime(float timeToAdd)
+    {
+        timeSpent += timeToAdd;
     }
 }

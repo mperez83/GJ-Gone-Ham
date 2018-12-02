@@ -9,6 +9,7 @@ public class DrunkAunt : MonoBehaviour
     public float verticalStumbleDistance = 1;
     public float horizontalStumbleDistance = 1;
     Vector2 anchorPos;
+    bool pacified;
 
     void Start()
     {
@@ -23,5 +24,17 @@ public class DrunkAunt : MonoBehaviour
         float finalSinX = horizontalStumbleDistance * Mathf.Sin(deg * Mathf.Deg2Rad);
         float finalSinY = verticalStumbleDistance * Mathf.Sin(0.5f * deg * Mathf.Deg2Rad);
         transform.position = new Vector3(anchorPos.x + finalSinX, anchorPos.y + finalSinY, transform.localPosition.z);
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            if (!pacified)
+            {
+                GameMaster.instance.AddTime(20);
+                pacified = true;
+            }
+        }
     }
 }

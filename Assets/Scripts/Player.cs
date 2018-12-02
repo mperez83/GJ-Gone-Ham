@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
         rb.velocity = moveAmount;
 
         //Set direction animator variable
-        if (rb.velocity.y > 0)
+        /*if (rb.velocity.y > 0)
         {
             faceDir = 0;
         }
@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
         if (rb.velocity.x != 0 && rb.velocity.y != 0)
             anim.SetBool("Moving", true);
         else
-            anim.SetBool("Moving", false);
+            anim.SetBool("Moving", false);*/
 
         sr.sortingOrder = (int)transform.position.y * -1;
     }
