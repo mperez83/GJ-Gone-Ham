@@ -9,21 +9,29 @@ public class DrunkAunt : MonoBehaviour
     public float verticalStumbleDistance = 1;
     public float horizontalStumbleDistance = 1;
     Vector2 anchorPos;
+    Vector2 prevPos;
     bool pacified;
+
+    Animator anim;
 
     void Start()
     {
         anchorPos = transform.position;
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
+        prevPos = transform.position;
+
         deg += stumbleSpeed * Time.deltaTime;
         if (deg >= 720) deg -= 720;
 
         float finalSinX = horizontalStumbleDistance * Mathf.Sin(deg * Mathf.Deg2Rad);
         float finalSinY = verticalStumbleDistance * Mathf.Sin(0.5f * deg * Mathf.Deg2Rad);
         transform.position = new Vector3(anchorPos.x + finalSinX, anchorPos.y + finalSinY, transform.localPosition.z);
+
+        anim.SetFloat("yVelocity", (transform.position.y - prevPos.y));
     }
 
     void OnTriggerEnter2D(Collider2D other)
