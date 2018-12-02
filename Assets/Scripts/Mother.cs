@@ -30,7 +30,7 @@ public class Mother : MonoBehaviour
 
         if (other.gameObject.tag == "Player")
         {
-            //SceneManager.LoadScene("Mother Ending");
+            SceneManager.LoadScene("Mother Ending");
         }
     }
 }
