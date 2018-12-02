@@ -2692,7 +2692,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1284049769}
+  selectedFlowchart: {fileID: 114527200852436598, guid: 52392e4a7dd06934491aaaf88417885e,
+    type: 2}
 --- !u!4 &635345274
 Transform:
   m_ObjectHideFlags: 1
@@ -5970,12 +5971,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &1284049769 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114462435073899856, guid: ab61196709cf6844e80502658b14b064,
-    type: 2}
-  m_PrefabInternal: {fileID: 1386675988}
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
 --- !u!1001 &1293240535
 Prefab:
   m_ObjectHideFlags: 0
@@ -6428,7 +6423,7 @@ Prefab:
     - target: {fileID: 114462435073899856, guid: ab61196709cf6844e80502658b14b064,
         type: 2}
       propertyPath: selectedBlocks.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772205100728542, guid: ab61196709cf6844e80502658b14b064, type: 2}
       propertyPath: m_LocalPosition.x
