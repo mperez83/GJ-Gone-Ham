@@ -10,9 +10,12 @@ public class Swarm : MonoBehaviour
     bool onLeftSide = true;
     bool pacified;
 
+    SpriteRenderer sr;
+
     void Start()
     {
         zipTimer = Random.Range(zipTimerMinLength, zipTimerMaxLength);
+        sr = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -22,9 +25,9 @@ public class Swarm : MonoBehaviour
         {
             zipTimer += Random.Range(zipTimerMinLength, zipTimerMaxLength);
             if (onLeftSide)
-                LeanTween.moveX(gameObject, 20, 2.5f).setEase(LeanTweenType.easeOutCubic);
+                LeanTween.moveX(gameObject, 20, 2.5f).setEase(LeanTweenType.easeOutCubic).setOnComplete(() => { sr.flipX = !sr.flipX; });
             else
-                LeanTween.moveX(gameObject, -20, 2.5f).setEase(LeanTweenType.easeOutCubic);
+                LeanTween.moveX(gameObject, -20, 2.5f).setEase(LeanTweenType.easeOutCubic).setOnComplete(() => { sr.flipX = !sr.flipX; }); ;
             onLeftSide = !onLeftSide;
         }
     }
