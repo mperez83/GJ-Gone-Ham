@@ -19,7 +19,7 @@ public class DrunkAunt : MonoBehaviour
     {
         anchorPos = transform.position;
         anim = GetComponent<Animator>();
-        sr.GetComponent<SpriteRenderer>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     void Update()
