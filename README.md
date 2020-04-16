@@ -1,4 +1,4 @@
-# Gone-Ham
+# VGDC-Jam-Gone-Ham
 Unity game submission for the VGDC 2018 Winter Wonderjam! In this game, you play as a child at a family reunion, trying to make their way through the household to get their chicken dinner.
 
 Play it here: https://starbladek.itch.io/gone-ham
